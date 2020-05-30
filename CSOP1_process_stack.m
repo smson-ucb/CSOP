@@ -10,7 +10,6 @@ clear all;
 
 PathName={
 '..\example\CSOP_image_example\CSOP_ex1'
-'..\example\CSOP_image_example\CSOP_ex2'
 };
 
 cam_depth=2^16;     % camera bit depth
