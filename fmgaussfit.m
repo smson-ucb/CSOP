@@ -39,7 +39,7 @@ xmin = min(xData)-2;
 ymin = min(yData)-2;
 
 %% Set up fittype and options.
-Lower = [0, s, xmin, ymin, 0];
+Lower = [0, 0.5*s, xmin, ymin, 0];
 Upper = [Inf, s, xmax, ymax, Inf]; % angles greater than 90 are redundant
 StartPoint = [amp, s, xo, yo, zo];%[amp, sx, sxy, sy, xo, yo, zo];
 
