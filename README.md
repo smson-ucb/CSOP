@@ -12,3 +12,4 @@ Use the following codes to simulate a CSOP image.
 - CSOPsim_circle.m
 
 Use example.zip for example CSOP images.
+Unzip the example folder and make sure its path is consistent with the location specified in the 'PathName' in CSOP0_segmentation.m, CSOP1_process_stack.m, and CSOP2_quantify_height.m. If not, update the 'PathName' accordingly.
