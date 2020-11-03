@@ -11,7 +11,6 @@ clear all;
 
 PathName={
 '.\example\example\CSOP_image_example\CSOP_ex1'
-'.\example\example\CSOP_image_example\CSOP_ex2'
 };
 
 % fit parameters
