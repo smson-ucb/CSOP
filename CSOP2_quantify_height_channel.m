@@ -116,8 +116,13 @@ for ipath=1:length(PathName)
                     figure(2);
                     plot(xfit, yfit, '-r');
 
-                    output0=[output0 ci max(yfit) estimates(1) estimates(2)...
-                        estimates(3) rmse mean(data_all(:,3)) mean(data_all(:,4))]; 
+                    if j==1
+                        output0=[output0 ci max(yfit) estimates(1) estimates(2)...
+                            estimates(3) rmse mean(data1(:,3)) mean(data1(:,4))]; 
+                    else
+                        output0=[output0 ci max(yfit) estimates(1) estimates(2)...
+                            estimates(3) rmse mean(data2(:,3)) mean(data2(:,4))]; 
+                    end
 
                     ci=ci+1;
                 end
